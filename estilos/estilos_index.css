@@ -1,33 +1,33 @@
-body{
+body {
     font-family: Arial, sans-serif;
-    background-color:aqua;
+    background-color: cornsilk ;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-header {
-    background-color: blue;
-    color: aqua;
+header{
+    background-color: rgb(24, 80, 233);
+    color: rgb(14, 13, 13);
     padding: 20px;
-
 }
 
 nav a {
     margin: 0 10px;
-    color:aqua;
+    color: rgb(149, 247, 242);
     text-decoration: none;
     font-weight: bold;
 }
 
-.carrucel img {
+.carrusel img {
     width: 90%;
     max-width: 600px;
     margin: 20px auto;
     display: none;
     border-radius: 10px;
 }
- .carrucel img:first-child {
+
+.carrusel img:first-child {
     display: block;
 }
 
@@ -37,53 +37,54 @@ section.info {
     text-align: left;
     max-width: 700px;
     margin: auto;
-    background-color: aliceblue;
+    background-color: rgb(252, 253, 253);
     border-radius: 10px;
-    box-shadow: 0 0 10px black(0,0,0,0,1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-form {
-    background: white;
+form{
+    background-color: aliceblue;
     padding: 20px;
     max-width: 400px;
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px blue(0,0,0,0,1);
+    box-shadow: 0 0 10px  rgba(0,0,0,0.1);
 }
 
-input,textarea, button {
+input, textarea, button {
     width: 90%;
     margin: 10px 0;
     padding: 10px;
     font-size: 16px;
 }
 
-button {
-    background-color: white;
-    color: black;
+button{
+    background-color: blue;
+    color: aqua;
     border: none;
-    cursor: pointer;
+    cursor:  pointer;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: blue;
+     background-color: rgb(93, 93, 236);
 }
 
 footer {
-    background-color: white;
-    color: black;
+    background-color: blue;
+    color: beige;
     padding: 10px;
     margin-top: 30px;
 }
 
-select {
+
+select{
     width: 95%;
     padding: 10px;
     font-size: 16px;
     margin-bottom: 10px;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 1px solid #ccc;
 }
 
 .form-grid {
@@ -93,23 +94,22 @@ select {
     text-align: left;
 }
 
-.form-grup {
+.form-group{
     display: flex;
     flex-direction: column;
 }
 
 @media (max-width: 90%) {
-    .form-grid {
+    .form-grid{
         grid-template-columns: 1fr;
     }
-    }
+}
 
-/* estilo del formulario de registro */
-form {
-    background-color: black;
+/* Estilos de formularios de registro */
+form{
+    background-color: #ffffff;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px white(0,0,0,0,1);
+    border-radius: 0 0 15px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     margin-top: 10px;
     margin: 50px;
